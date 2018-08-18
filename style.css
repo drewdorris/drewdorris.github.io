@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
+}
+
+body {
+  background-color: #64737F;
+}
+
+.maintext {
+  font-size: 250%;
+  font-family: Ubuntu;
+  font-style: normal;
+  width: 40%;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+  transition: .5s ease;
+  }
+.maintext:hover {
+  width: 55%;
+}
+
+.hello {
+  transition: .5s ease;
+}
+.hello:hover {
+  color: #171516;
+}
+
+.links {
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.github {
+  transition: .25s ease;
+}
+.github:hover {
+  opacity: .5;
+}
+.mail {
+  transition: .25s ease;
+}
+.mail:hover {
+  opacity: .5;
+}
