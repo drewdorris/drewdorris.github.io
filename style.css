@@ -13,7 +13,7 @@ body {
   font-size: 250%;
   font-family: Ubuntu;
   font-style: normal;
-  width: 40%;
+  width: 30%;
   padding-top: 10%;
   margin-left: auto;
   margin-right: auto;
@@ -22,14 +22,7 @@ body {
   transition: .5s ease;
   }
 .maintext:hover {
-  width: 55%;
-}
-
-.hello {
-  transition: .5s ease;
-}
-.hello:hover {
-  color: #171516;
+  width: 40%;
 }
 
 .links {
